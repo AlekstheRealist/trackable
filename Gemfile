@@ -7,11 +7,16 @@ gem 'rails', '4.0.13'
 gem 'pg'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.2'
+gem 'sass-rails'
 
 gem 'rails_12factor', group: :production
 
+# Devise for user authentication
 gem 'devise'
+
+# Twitter Bootstrap 3
+gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'sprockets', '2.11.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
