@@ -1,1 +1,10 @@
-<h1>Hello World</h1>
+<div >
+  <% @weeks.each do |week| %>
+    <div class="booyah-box">
+      <h1 class="text-center"><%= "#{week.date_range}" %></h1>
+      <br />
+      <h2><%= "#{week.workout.name}" %></h2>
+    </div>
+  <% end %>
+
+</div>
